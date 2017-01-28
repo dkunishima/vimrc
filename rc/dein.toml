@@ -1,0 +1,98 @@
+# 基本は github.com のレポジトリーを指定するだけ
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
+
+# 入力補完機能
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+
+# インデントの可視化
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+# 対応するタグをハイライト
+[[plugins]]
+repo = 'gregsexton/MatchTag'
+
+# html5シンタックス
+[[plugins]]
+repo = 'othree/html5.vim'
+
+# css3シンタックス
+[[plugins]]
+repo = 'hail2u/vim-css3-syntax'
+
+# scssシンタックス
+[[plugins]]
+repo = 'cakebaker/scss-syntax.vim'
+
+# スニペット機能が使える
+[[plugins]]
+repo = 'Shougo/neosnippet'
+
+# 文法チェック
+[[plugins]]
+repo = 'scrooloose/syntastic'
+
+# vimでGitる
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+# 検索結果をhilightする
+[[plugins]]
+repo = 'osyo-manga/vim-anzu'
+
+# gccでまとめてコメントアウトできるようになる
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+# NERDTreeを表示できるようにする
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+# jsのシンタックス
+[[plugins]]
+repo = 'jelera/vim-javascript-syntax'
+
+# <C-e>でウィンドウを簡単にリサイズできる
+[[plugins]]
+repo = 'simeji/winresizer'
+
+# emmet-vim
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+# 特定要素を括弧で囲んだり括弧内の要素を操作できる
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+# ステータスラインをカスタマイズ
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+# 選択テキストの位置移動
+[[plugins]]
+repo = 't9md/vim-textmanip'
+
+# 開いたファイルの履歴を保持
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+# markdown記述を記述できるようにする
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+
+# 【:PrevimOpen】でmarkdownをブラウザでプレビューできる
+[[plugins]]
+repo = 'kannokanno/previm'
+
+# gxでブラウザを開く
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
